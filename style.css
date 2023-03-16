@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Joystix';
+    src: url('fonts/JoystixMonospace-Regular.woff') format('woff'),
+        url('fonts/JoystixMonospace-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Joystix';
+    background-color: black;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nextBattle {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.choosePlayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+    border: 5px inset #0E5135;
+    min-height: 470px;
+    background-color: #D4CE46;
+    max-height: 470px;
+    color: #424C48;
+    border-radius: 15px;
+}
+
+.block1, .block2 {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+    width: 300px;
+    max-width: 1024px;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.inp1, .inp2 {
+    font-family: 'Joystix';
+    color: #0E5135;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border: 3px solid #0E5135;
+    border-radius: 10px;
+    
+}
+
+.btn1, .btn2 {
+    font-family: 'Joystix';
+    font-weight: bold;
+    font-size: 1rem;
+    color: #424C48;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    background-color: rgba(51, 204, 51);
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 
+        inset -3px 2px 1px 1px gray,
+        inset 1px 0px 1px 1px lightgray,
+        inset -3px -1px 1px 1px lightgray;
+    position: relative;
+    
+}
+
+.btn1:hover, .btn2:hover{
+    cursor: pointer;
+    background-color: rgba(51, 204, 51, .4);
+}
+
+.btn1:active, .btn2:active {
+    top: 5px;
+    box-shadow: 
+        -3px 2px 1px 1px gray,
+        1px 0px 1px 1px lightgray,
+        -3px -1px 1px 1px lightgray;
+        
+}
+
+.vs {
+    font-size: 70px;
+}
+
+.fightBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.fight {
+    font-family: 'Joystix';
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 
+        -3px 2px 1px 1px gray,
+        1px 0px 1px 1px lightgray,
+        -3px -1px 1px 1px lightgray;
+    align-items: center;
+}
+.fight:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, .8);
+}
+
+.fight:active {
+    top: 5px;
+    box-shadow: 
+    inset -3px 2px 1px 1px #262626,
+    inset 1px 0px 1px 1px lightgray,
+    inset -3px -1px 1px 1px lightgray;
+        
+}
+
+.frontPic1, .backPic1, .frontPic2, .backPic2 {
+    width: 100px;
+    height: 100px;
+}
