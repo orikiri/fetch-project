@@ -1,6 +1,6 @@
 # Fetch with pokeapi
 
-Create a pixelgame start page: Choose your pokemon to battle!
+Create a pixel game start page: Choose your pokemon to battle!
 
 
 what was used: 
